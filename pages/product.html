@@ -7,7 +7,7 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="../dist/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css" />
+    <link rel="stylesheet" href="../dist/product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
@@ -91,160 +91,58 @@
         </nav>
     </header>
 
-    <section class="bannerTopo">
-        <div class="bannerContainer">
-            <img src="../src/img/moderno.svg" alt="">
-            <img src="../src/img/decore.svg" alt="">
-            <img src="../src/img/oferta.svg" alt="">
-        </div>
-    </section>
-
-    <section class="ruler">
-        <div class="rulerList">
-            <div class="rulerItem">
-                <figure>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="43" height="38" fill="none">
-                        <path fill="#FF914C" d="M41 8 26 0a2 2 0 0 0-1 0L10 8 9 9a1 1 0 0 0 1 2l14 7v16l-4-2-2 2 7 4a2 2 0 0 0 1 0l15-8 1-1V9l-1-1ZM26 3l12 6-12 7-12-7 12-6Zm13 25-12 6V18l12-6v16Z" />
-                        <path fill="#FF914C" d="M12 19H0v-3h12v3ZM15 31H3v-3h12v3ZM18 25H6v-3h12v3Z" />
-                    </svg>
-                </figure>
-                <div class="rulerText">
-                    <span>Entrega</span>
-                    <span>para todo o Brasil</span>
-                </div>
-            </div>
-            <div class="rulerItem">
-                <figure>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="none">
-                        <g fill="#FF914C" clip-path="url(#a)">
-                            <path fill-rule="evenodd" d="M33 7H5a2 2 0 0 0-3 3v19a2 2 0 0 0 3 2h28a2 2 0 0 0 3-2V10a2 2 0 0 0-3-3ZM5 5a5 5 0 0 0-5 5v19a5 5 0 0 0 5 4h28a5 5 0 0 0 5-4V10a5 5 0 0 0-5-5H5Z" clip-rule="evenodd" />
-                            <path d="M5 13a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v2a1 1 0 0 1-1 2H6a1 1 0 0 1-1-2v-2Z" />
-                            <path fill-rule="evenodd" d="M5 20a1 1 0 0 1 1-1h12a1 1 0 0 1 0 2H6a1 1 0 0 1-1-1Zm0 5a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Zm7 0a1 1 0 0 1 1-1h2a1 1 0 0 1 0 2h-2a1 1 0 0 1-1-1Zm7 0a1 1 0 0 1 1-1h3a1 1 0 0 1 0 2h-3a1 1 0 0 1-1-1Zm7 0a1 1 0 0 1 1-1h3a1 1 0 0 1 0 2h-3a1 1 0 0 1-1-1Z" clip-rule="evenodd" />
-                        </g>
-                        <defs>
-                            <clipPath id="a">
-                                <path fill="#fff" d="M0 0h38v38H0z" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </figure>
-                <div class="rulerText">
-                    <span>Parcele</span>
-                    <span>em ate 128x com juros</span>
-                </div>
-            </div>
-            <div class="rulerItem">
-                <figure>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="31" fill="none">
-                        <path fill="#FF914C" d="M42 15 37 5V4h-5V1l-1-1H0v26l2 1h3l2 3a6 6 0 0 0 7 0l2-3h10l2 3a6 6 0 0 0 7 0l2-3h4l1-1V15ZM32 7h3l3 7h-6V7ZM11 28H9l-1-1a3 3 0 0 1 0-4h4l1 1a3 3 0 0 1 0 3l-2 1Zm15-4H16l-2-3a6 6 0 0 0-7 0l-2 3H3V3h26v18l-2 1-1 2Zm6 4h-2l-1-1a3 3 0 0 1 0-4h4l1 1a3 3 0 0 1 0 3l-2 1Zm7-4h-2l-2-3-3-1v-3h7v7Z" />
-                    </svg>
-                </figure>
-                <div class="rulerText">
-                    <span>Frete Gratis</span>
-                    <span>acima de R$359,00</span>
-                </div>
-            </div>
-            <div class="rulerItem">
-                <figure>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="38" fill="none">
-                        <path fill="#FF914C" d="M32 10V7l-2-1c-5 0-10-2-13-5h-2C12 4 7 6 2 6L0 7v3c0 9 0 22 16 28 16-6 16-19 16-28ZM16 35C3 30 3 19 3 10V8c5 0 9-1 13-5 4 4 8 5 13 5v2c0 9 0 20-13 25Z" />
-                        <path fill="#FF914C" d="m20 14-6 7-2-3h-2v2l3 4h2l7-8v-2h-2Z" />
-                    </svg>
-                </figure>
-                <div class="rulerText">
-                    <span>Loja Segura</span>
-                    <span> compre conosco</span>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <main>
-        <section class="browserCategory">
-            <div class="Container">
-                <h1 class="title">navegue pela nossa loja</h1>
-                <div class="list">
-                    <div class="item">
+    <section>
+        <div class="product">
+        <mat-card>
+                <div class="productContainer">
                         <figure>
-                            <img src="../src/img/sala.webp" alt="">
+                            <img src="../src/img/Produtcs/mesaJantar1.webp" alt="">
                         </figure>
-                        <span class="titleCategory">sala de jantar</span>
-                    </div>
-
-                    <div class="item">
-                        <figure>
-                            <img src="../src/img/banheiro.jpeg" alt="">
-                        </figure>
-                        <span class="titleCategory">banheiro</span>
-                    </div>
-
-                    <div class="item">
-                        <figure>
-                            <img src="../src/img/poltrona.webp" alt="">
-                        </figure>
-                        <span class="titleCategory">sala de estar</span>
-                    </div>
-
-                    <div class="item">
-                        <figure>
-                            <img src="../src/img/quarto.webp" alt="">
-                        </figure>
-                        <span class="titleCategory">quarto</span>
-                    </div>
-
-                    <div class="item">
-                        <figure>
-                            <img src="../src/img/sala.webp" alt="">
-                        </figure>
-                        <span class="titleCategory">cozinha</span>
-                    </div>
-                    <div class="item">
-                        <figure>
-                            <img src="../src/img/externa.webp" alt="">
-                        </figure>
-                        <span class="titleCategory">area gourmet</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="spotProducts">
-            <div class="sportProductsContainer">
-                <h1 class="title"> Mais Vendidos</h1>
-                <div class="containerProducts">
-                    <div class="frente">
-                        <figure>
-                            <a href="../pages/product.html">
-                                <img src="../src/img/Produtcs/mesaJantar1.webp" alt="">
-                            </a>
-                        </figure>
-
-                        <h3 class="titleProduct">
-                            Conjunto Sala De Jantar Nápoles Tampo Vidro/MDF com 6 Cadeiras Luísa Smart Plus Cel Móveis Cinamomo/Off White/Bege
-                        </h3>
-                        <div class="stickers">
-                            <span class="">Frete Gratis</span>
-                            <span class="">Lançamento</span>
-                        </div>
-                    </div>
-                    <div class="tras">
-                        <div class="contentProducts">
-                            <div class="priceContent">
-                                <div class="price">R$2.238,86 </div>
-                                <div class="priceDescont">1.429,90</div>
-                                <div class="priceParc">ou 4x de R$12,47 sem juros</div>
+                        <div class="descriptionProduct">
+                            <h3>Conjunto Sala De Jantar Nápoles Tampo Vidro/MDF com 6 Cadeiras Luísa Smart Plus Cel Móveis Cinamomo/Off White/Bege</h3>
+                            <p>Uma sala de jantar só está completa com a presença de um bom espaço para que as confraternizações sejam totalmente aproveitadas. Com um design primoroso e sofisticado, a Mesa Nápoles reúne características ideais para tornar este ambiente um dos seus preferidos!
+                            </p>
+                            <a href="http://">mais informações</a>
+                            <div class="stickers">
+                                <span class="frete">Frete Grátis</span>
+                                <span class="lancamento">Lançamento!</span>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>    
+        </mat-card>
+        <mat-card>
+            <div class="priceContainer">
+                    <div class="descriptionPrice">
+                        <p>R$ 2238,86</p>
+                        <h2>R$ 1429,90</h2>
+                        <span>ou 10x de R$ 142,99 sem juros </span>
+                    </div>
+                    
+                    <div class="freight">
+                        <p>Calcular frete e prazo:</p>
+                        <input type="text">
+                    </div>
+                    <div class="actions">
+                        <button class="comprar">Comprar</button>
+                        <button class="adicionarAoCarrinho">Adicionar ao Carrinho</button>
+                        <p>Este produto é vendido e entregue por <span>LoremKasa</span></p>
+                    </div>
+            </div>
+    </mat-card>
+</div>
         </section>
+
+        <section>
+            <div class="productCards">
+                <p>Produtos que você pode gostar:</p>
+            
+    </div>
+            </section>
     </main>
 
-    <footer>
+    <!-- <footer>
         <h1>AQUI VAI SER O FOOTER</h1>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
