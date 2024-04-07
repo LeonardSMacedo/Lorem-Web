@@ -1,2 +1,4 @@
 npm install -g sass (instalando o scss na maquina)
 sass --watch src/estilos:dist --style compressed (Compilar todos os arquivos scss para css na pasta dist"padrao")
+
+Set-ExecutionPolicy RemoteSigned (para liberar o windows, inserir este comando no PowerShell inicializado com o administrador. Após isso, digitar 'a')
