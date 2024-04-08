@@ -1,0 +1,27 @@
+.filtro{
+  margin-top: 150px;
+  .filtroContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+    padding: 15px;
+    height: 550px;
+    gap: 14px;
+    .categoryContainer{
+      border-bottom: 1px solid #E0E0E0;
+    }
+    .filtoBtn{
+      background-color: #4a3866;
+      text-align: center;
+      color: #fff;
+      font-weight: 500;
+      border-radius: 5px;
+    }
+  }
+  .testeProducts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+}
